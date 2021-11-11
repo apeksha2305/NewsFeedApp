@@ -49,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
                 newsArticlesList = newsArticles;
 
                 if (adapter != null){
-                    adapter.notifyDataSetChanged();
+//                    adapter.notifyDataSetChanged();
+                    createRecyclerViewAdapter();
                 }else {
                     createRecyclerViewAdapter();
                 }
